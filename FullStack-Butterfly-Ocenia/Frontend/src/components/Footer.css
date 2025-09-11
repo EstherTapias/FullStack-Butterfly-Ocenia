@@ -1,0 +1,59 @@
+.footer {
+  background-color: #1B4332;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 2rem;
+  gap: 1rem;
+  flex-wrap: wrap;
+  position: relative;
+  font-family: open sans; 
+}
+
+.footer-text {
+  flex: 1 1 auto;
+  text-align: center;
+  font-weight: 600;
+  font-size: 1rem;
+  min-width: 200px;
+}
+
+.lang-button {
+  background: transparent;
+  border: 1.5px solid white;
+  color: white;
+  padding: 0.4rem 0.8rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  flex-shrink: 0;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.lang-button:hover,
+.lang-button:focus {
+  background-color: white;
+  color: #1B4332;
+  outline: none;
+}
+
+a{
+  color: #e0e6d8;
+}
+
+@media (max-width: 480px) {
+  .footer {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .footer-text {
+    order: 2;
+  }
+
+  .lang-button {
+    order: 1;
+    width: 100%;
+  }
+}

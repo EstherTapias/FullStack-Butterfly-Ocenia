@@ -1,0 +1,1598 @@
+{
+  "butterfly": [
+    {
+      "id": "1",
+      "commonName": "Mariposa Ulises",
+      "scientificName": "Papilio ulysses",
+      "family": "Papilionidae",
+      "region": "Australia",
+      "specificLocation": "Queensland, Norte de Australia",
+      "habitat": "Selvas tropicales húmedas",
+      "wingspan": 10.5,
+      "wingspanUnit": "cm",
+      "description": "Mariposa de color azul eléctrico brillante con bordes negros. Endémica del norte de Australia y considerada una de las más bellas del continente.",
+      "conservationStatus": "stable",
+      "threatLevel": "preocupación menor",
+      "population": "abundante",
+      "flightSeason": [
+        "octubre",
+        "noviembre",
+        "diciembre",
+        "enero",
+        "febrero",
+        "marzo"
+      ],
+      "hostPlants": [
+        "Melicope elleryana",
+        "Euodia species"
+      ],
+      "nectarSources": [
+        "Pentas",
+        "Ixora",
+        "Lantana"
+      ],
+      "behavior": "Vuela en el dosel superior, males territoriales",
+      "coordinates": {
+        "latitude": -16.2186,
+        "longitude": 145.7781
+      },
+      "colorPrimary": "#0AB6F0",
+      "tags": [
+        "endémica",
+        "tropical",
+        "azul brillante",
+        "turismo"
+      ],
+      "publicId": "swwjn3wlrrax40fczrn1"
+    },
+    {
+      "id": "2",
+      "commonName": "Mariposa Monarca",
+      "scientificName": "Danaus plexippus",
+      "family": "Nymphalidae",
+      "region": "Australia",
+      "specificLocation": "Sur y Este de Australia, Nueva Zelanda",
+      "habitat": "Jardines, campos abiertos, praderas",
+      "wingspan": 8.9,
+      "wingspanUnit": "cm",
+      "description": "Famosa por sus migraciones épicas y su distintivo color naranja con venas negras. Especie introducida en Oceanía desde América del Norte.",
+      "conservationStatus": "vulnerable",
+      "threatLevel": "Casi amenazada",
+      "population": "en declive",
+      "flightSeason": [
+        "septiembre",
+        "octubre",
+        "noviembre",
+        "diciembre",
+        "enero",
+        "febrero",
+        "marzo",
+        "abril"
+      ],
+      "hostPlants": [
+        "Gomphocarpus physocarpus",
+        "Asclepias species"
+      ],
+      "nectarSources": [
+        "Buddleja",
+        "Grevillea",
+        "Pentas"
+      ],
+      "behavior": "Migradora de larga distancia, vuela en grupos",
+      "coordinates": {
+        "latitude": -33.8688,
+        "longitude": 151.2093
+      },
+      "colorPrimary": "#FEA711",
+      "tags": [
+        "migratoria",
+        "introducida",
+        "naranja",
+        "icónica"
+      ],
+      "publicId": "danaus-plexippus"
+    },
+    {
+      "id": "3",
+      "commonName": "Birdwing Dorada",
+      "scientificName": "Ornithoptera priamus",
+      "family": "Papilionidae",
+      "region": "Australia",
+      "specificLocation": "Queensland tropical, Islas Salomón",
+      "habitat": "Bosques tropicales primarios",
+      "wingspan": 16,
+      "wingspanUnit": "cm",
+      "description": "Una de las mariposas más grandes del mundo. Los machos tienen colores verde esmeralda y dorado vibrantes.",
+      "conservationStatus": "stable",
+      "threatLevel": "Preocupación menor",
+      "population": "estable",
+      "flightSeason": [
+        "noviembre",
+        "diciembre",
+        "enero",
+        "febrero",
+        "marzo"
+      ],
+      "hostPlants": [
+        "Aristolochia tagala",
+        "Pararistolochia praevenosa"
+      ],
+      "nectarSources": [
+        "Pentas",
+        "Ixora",
+        "Mussaenda"
+      ],
+      "behavior": "Vuela alto en el dosel, dimorfismo sexual marcado",
+      "coordinates": {
+        "latitude": -17.3667,
+        "longitude": 145.7833
+      },
+      "colorPrimary": "#33E211",
+      "tags": [
+        "gigante",
+        "verde esmeralda",
+        "bosque primario",
+        "espectacular"
+      ],
+      "publicId": "ornithoptera-priamus"
+    },
+    {
+      "id": "4",
+      "commonName": "Regent Skipper",
+      "scientificName": "Euschemon rafflesia",
+      "family": "Hesperiidae",
+      "region": "Australia",
+      "specificLocation": "Queensland del norte",
+      "habitat": "Selvas subtropicales y tropicales",
+      "wingspan": 5.5,
+      "wingspanUnit": "cm",
+      "description": "Única mariposa skipper con colores amarillo y rojo brillantes. Vuelo rápido y errático.",
+      "conservationStatus": "stable",
+      "threatLevel": "Preocupación menor",
+      "population": "estable",
+      "flightSeason": [
+        "noviembre",
+        "diciembre",
+        "enero",
+        "febrero"
+      ],
+      "hostPlants": [
+        "Arytera divaricata"
+      ],
+      "nectarSources": [
+        "Pentas",
+        "Stachytarpheta",
+        "Clerodendrum"
+      ],
+      "behavior": "Vuelo muy rápido, se posa con alas abiertas",
+      "coordinates": {
+        "latitude": -16.9203,
+        "longitude": 145.771
+      },
+      "colorPrimary": "#F2F603",
+      "tags": [
+        "skipper",
+        "amarillo rojo",
+        "rápida",
+        "única"
+      ],
+      "publicId": "euschemon-rafflesia"
+    },
+    {
+      "id": "5",
+      "commonName": "Mariposa Luna Azul",
+      "scientificName": "Hypolimnas bolina",
+      "family": "Nymphalidae",
+      "region": "Islas del Pacífico",
+      "specificLocation": "Fiji, Vanuatu, Nueva Caledonia, Samoa",
+      "habitat": "Áreas costeras, jardines, bordes de bosque",
+      "wingspan": 7.5,
+      "wingspanUnit": "cm",
+      "description": "Mariposa con marcado dimorfismo sexual. Machos azul-púrpura brillante, hembras marrones con manchas blancas.",
+      "conservationStatus": "stable",
+      "threatLevel": "Preocupación menor",
+      "population": "común",
+      "flightSeason": [
+        "todo el año"
+      ],
+      "hostPlants": [
+        "Synedrella nodiflora",
+        "Pseuderanthemum carruthersii"
+      ],
+      "nectarSources": [
+        "Lantana",
+        "Pentas",
+        "Stachytarpheta"
+      ],
+      "behavior": "Territorial, vuelo fuerte y directo",
+      "coordinates": {
+        "latitude": -17.7134,
+        "longitude": 178.065
+      },
+      "colorPrimary": "#4B0082",
+      "tags": [
+        "isleña",
+        "dimorfismo",
+        "azul púrpura",
+        "costera"
+      ],
+      "publicId": "hypolimnas-bolina"
+    },
+    {
+      "id": "6",
+      "commonName": "Perla de Tasmania",
+      "scientificName": "Delias aganippe",
+      "family": "Pieridae",
+      "region": "Australia",
+      "specificLocation": "Tasmania",
+      "habitat": "Bosques templados, jardines",
+      "wingspan": 6.4,
+      "wingspanUnit": "cm",
+      "description": "Mariposa blanca con delicados patrones rosados y naranjas en el reverso de las alas.",
+      "conservationStatus": "stable",
+      "threatLevel": "Preocupación menor",
+      "population": "estable",
+      "flightSeason": [
+        "noviembre",
+        "diciembre",
+        "enero",
+        "febrero"
+      ],
+      "hostPlants": [
+        "Amyema species",
+        "Viscum species"
+      ],
+      "nectarSources": [
+        "Eucalyptus",
+        "Leptospermum",
+        "Melaleuca"
+      ],
+      "behavior": "Vuelo ondulante, a menudo en grupos",
+      "coordinates": {
+        "latitude": -42.8821,
+        "longitude": 147.3272
+      },
+      "colorPrimary": "#FFB6C1",
+      "tags": [
+        "tasmania",
+        "blanca",
+        "delicada",
+        "endémica"
+      ],
+      "publicId": "delias-aganippe"
+    },
+    {
+      "id": "7",
+      "commonName": "Azul de Coral",
+      "scientificName": "Jamides bochus",
+      "family": "Lycaenidae",
+      "region": "Australia",
+      "specificLocation": "Queensland del norte, Islas Salomón",
+      "habitat": "Bosques tropicales, jardines",
+      "wingspan": 3.2,
+      "wingspanUnit": "cm",
+      "description": "Diminuta mariposa azul brillante. Los machos son azul intenso, las hembras más opacas.",
+      "conservationStatus": "stable",
+      "threatLevel": "Preocupación menor",
+      "population": "común",
+      "flightSeason": [
+        "octubre",
+        "noviembre",
+        "diciembre",
+        "enero",
+        "febrero",
+        "marzo"
+      ],
+      "hostPlants": [
+        "Derris trifoliata",
+        "Millettia pinnata"
+      ],
+      "nectarSources": [
+        "Flores pequeñas",
+        "Pentas",
+        "Ixora"
+      ],
+      "behavior": "Vuelo errático, se posa frecuentemente",
+      "coordinates": {
+        "latitude": -16.505,
+        "longitude": 145.2629
+      },
+      "colorPrimary": "#0047AB",
+      "tags": [
+        "diminuta",
+        "azul brillante",
+        "común",
+        "jardines"
+      ],
+      "publicId": "jamides-bochus"
+    },
+    {
+      "id": "8",
+      "commonName": "Kahukura",
+      "scientificName": "Lycaena boldenarum",
+      "family": "Lycaenidae",
+      "region": "Nueva Zelanda",
+      "specificLocation": "Ambas islas de Nueva Zelanda",
+      "habitat": "Praderas alpinas, dunas costeras",
+      "wingspan": 2.8,
+      "wingspanUnit": "cm",
+      "description": "Pequeña mariposa cobre endémica de Nueva Zelanda con brillos metálicos dorados y cobrizos.",
+      "conservationStatus": "vulnerable",
+      "threatLevel": "Vulnerable",
+      "population": "localizada",
+      "flightSeason": [
+        "noviembre",
+        "diciembre",
+        "enero",
+        "febrero"
+      ],
+      "hostPlants": [
+        "Muehlenbeckia complexa",
+        "Rumex species"
+      ],
+      "nectarSources": [
+        "Flores silvestres nativas",
+        "Hebe species"
+      ],
+      "behavior": "Vuelo bajo y rápido, prefiere días soleados",
+      "coordinates": {
+        "latitude": -41.2865,
+        "longitude": 174.7762
+      },
+      "colorPrimary": "#CD7F32",
+      "tags": [
+        "endémica",
+        "pequeña",
+        "metálica",
+        "nueva zelanda"
+      ],
+      "publicId": "lycaena-boldenarum"
+    },
+    {
+      "id": "9",
+      "commonName": "Mariposa Admiral Roja",
+      "scientificName": "Vanessa gonerilla",
+      "family": "Nymphalidae",
+      "region": "Nueva Zelanda",
+      "specificLocation": "Ambas islas de Nueva Zelanda",
+      "habitat": "Jardines, bosques abiertos, bordes urbanos",
+      "wingspan": 5.5,
+      "wingspanUnit": "cm",
+      "description": "Mariposa de colores naranja, negro y blanco. Endémica de Nueva Zelanda y muy común en jardines.",
+      "conservationStatus": "stable",
+      "threatLevel": "Preocupación menor",
+      "population": "abundante",
+      "flightSeason": [
+        "octubre",
+        "noviembre",
+        "diciembre",
+        "enero",
+        "febrero",
+        "marzo"
+      ],
+      "hostPlants": [
+        "Urtica ferox",
+        "Urtica incisa"
+      ],
+      "nectarSources": [
+        "Buddleja",
+        "Hebe",
+        "Flores de jardín"
+      ],
+      "behavior": "Vuelo territorial, migra estacionalmente",
+      "coordinates": {
+        "latitude": -39.0568,
+        "longitude": 174.0686
+      },
+      "colorPrimary": "#FF4500",
+      "tags": [
+        "endémica",
+        "común",
+        "jardines",
+        "territorial"
+      ],
+      "publicId": "vanessa-gonerilla"
+    },
+    {
+      "id": "10",
+      "commonName": "Blanquita de la Col",
+      "scientificName": "Pieris rapae",
+      "family": "Pieridae",
+      "region": "Nueva Zelanda",
+      "specificLocation": "Ambas islas, áreas agrícolas",
+      "habitat": "Campos de cultivo, jardines, áreas abiertas",
+      "wingspan": 4.5,
+      "wingspanUnit": "cm",
+      "description": "Pequeña mariposa blanca introducida desde Europa. Considerada plaga agrícola pero muy adaptativa.",
+      "conservationStatus": "stable",
+      "threatLevel": "Especie introducida",
+      "population": "abundante",
+      "flightSeason": [
+        "todo el año"
+      ],
+      "hostPlants": [
+        "Brassica oleracea",
+        "Brassica napus",
+        "Raphanus raphanistrum"
+      ],
+      "nectarSources": [
+        "Flores de jardín",
+        "Trébol",
+        "Diente de león"
+      ],
+      "behavior": "Vuelo ondulante, múltiples generaciones anuales",
+      "coordinates": {
+        "latitude": -43.5321,
+        "longitude": 172.6362
+      },
+      "colorPrimary": "#F5F5F5",
+      "tags": [
+        "introducida",
+        "plaga",
+        "blanca",
+        "común"
+      ],
+      "publicId": "pieris-rapae"
+    },
+    {
+      "id": "11",
+      "commonName": "Papilio de Fiji",
+      "scientificName": "Papilio natewa",
+      "family": "Papilionidae",
+      "region": "Islas del Pacífico",
+      "specificLocation": "Península Natewa, Vanua Levu, Fiji",
+      "habitat": "Bosques tropicales primarios de montaña",
+      "wingspan": 12.5,
+      "wingspanUnit": "cm",
+      "description": "Especie recientemente descubierta en 2017. Grande y vistosa con patrones únicos, endémica de Fiji.",
+      "conservationStatus": "vulnerable",
+      "threatLevel": "Vulnerable",
+      "population": "muy localizada",
+      "flightSeason": [
+        "noviembre",
+        "diciembre",
+        "enero"
+      ],
+      "hostPlants": [
+        "Aristolochia species"
+      ],
+      "nectarSources": [
+        "Flores del dosel forestal"
+      ],
+      "behavior": "Vuela alto en el dosel, raramente desciende",
+      "coordinates": {
+        "latitude": -16.8167,
+        "longitude": 179.2167
+      },
+      "colorPrimary": "#8B4513",
+      "tags": [
+        "recientemente descubierta",
+        "endémica fiji",
+        "vulnerable",
+        "dosel"
+      ],
+      "publicId": "papilio-natewa"
+    },
+    {
+      "id": "12",
+      "commonName": "Mariposa Cressida Rara",
+      "scientificName": "Hypolimnas inopinata",
+      "family": "Nymphalidae",
+      "region": "Islas del Pacífico",
+      "specificLocation": "Viti Levu, Fiji",
+      "habitat": "Bosques nativos de tierras bajas",
+      "wingspan": 8,
+      "wingspanUnit": "cm",
+      "description": "Una de las mariposas más raras de Fiji, conocida por muy pocos especímenes. Patrones negro-azul únicos.",
+      "conservationStatus": "endangered",
+      "threatLevel": "En peligro crítico",
+      "population": "muy rara",
+      "flightSeason": [
+        "enero",
+        "febrero",
+        "marzo"
+      ],
+      "hostPlants": [
+        "Elatostema species"
+      ],
+      "nectarSources": [
+        "Flores del sotobosque"
+      ],
+      "behavior": "Muy esquiva, prefiere la sombra densa",
+      "coordinates": {
+        "latitude": -18.1248,
+        "longitude": 178.4501
+      },
+      "colorPrimary": "#191970",
+      "tags": [
+        "muy rara",
+        "en peligro",
+        "fiji",
+        "esquiva"
+      ],
+      "publicId": "hypolimnas-inopinata"
+    },
+    {
+      "id": "13",
+      "commonName": "Mariposa del Bambú",
+      "scientificName": "Taractrocera papyria",
+      "family": "Hesperiidae",
+      "region": "Australia",
+      "specificLocation": "Este de Australia",
+      "habitat": "Praderas con bambú, jardines",
+      "wingspan": 2.8,
+      "wingspanUnit": "cm",
+      "description": "Pequeña skipper marrón dorada. Las larvas se alimentan exclusivamente de bambú.",
+      "conservationStatus": "stable",
+      "threatLevel": "Preocupación menor",
+      "population": "abundante",
+      "flightSeason": [
+        "octubre",
+        "noviembre",
+        "diciembre",
+        "enero",
+        "febrero"
+      ],
+      "hostPlants": [
+        "Bambusa species",
+        "Dendrocalamus species"
+      ],
+      "nectarSources": [
+        "Flores de jardín",
+        "Lantana"
+      ],
+      "behavior": "Vuelo bajo y rápido entre las hierbas",
+      "coordinates": {
+        "latitude": -27.4679,
+        "longitude": 153.0281
+      },
+      "colorPrimary": "#DAA520",
+      "tags": [
+        "bambú",
+        "skipper",
+        "pequeña",
+        "dorada"
+      ],
+      "publicId": "taractrocera-papyria"
+    },
+    {
+      "id": "14",
+      "commonName": "Mariposa Imperial de las Islas",
+      "scientificName": "Charaxes nitebis",
+      "family": "Nymphalidae",
+      "region": "Islas del Pacífico",
+      "specificLocation": "Papúa Nueva Guinea, Islas Salomón",
+      "habitat": "Bosques costeros, manglares",
+      "wingspan": 11.7,
+      "wingspanUnit": "cm",
+      "description": "Mariposa robusta con patrones complejos en tonos marrones y naranjas. Vuelo potente.",
+      "conservationStatus": "stable",
+      "threatLevel": "Preocupación menor",
+      "population": "abundante",
+      "flightSeason": [
+        "todo el año"
+      ],
+      "hostPlants": [
+        "Croton species",
+        "Bridelia species"
+      ],
+      "nectarSources": [
+        "Flores de mangle",
+        "Frutos fermentados"
+      ],
+      "behavior": "Territorial, vuelo fuerte, atraída por minerales",
+      "coordinates": {
+        "latitude": -6.314,
+        "longitude": 143.9555
+      },
+      "colorPrimary": "#CD853F",
+      "tags": [
+        "robusta",
+        "manglar",
+        "territorial",
+        "papua"
+      ],
+      "publicId": "charaxes-nitebis"
+    },
+    {
+      "id": "15",
+      "commonName": "Delias de las Montañas",
+      "scientificName": "Delias argenthona",
+      "family": "Pieridae",
+      "region": "Australia",
+      "specificLocation": "Nueva Gales del Sur, Queensland",
+      "habitat": "Bosques de eucalipto, zonas montañosas",
+      "wingspan": 7.2,
+      "wingspanUnit": "cm",
+      "description": "Mariposa blanca con patrones amarillos y rojos en el reverso. Endémica de las montañas del este de Australia.",
+      "conservationStatus": "stable",
+      "threatLevel": "Preocupación menor",
+      "population": "estable",
+      "flightSeason": [
+        "noviembre",
+        "diciembre",
+        "enero",
+        "febrero"
+      ],
+      "hostPlants": [
+        "Amyema cambagei",
+        "Amyema miquelii"
+      ],
+      "nectarSources": [
+        "Eucalyptus",
+        "Banksia",
+        "Grevillea"
+      ],
+      "behavior": "Vuelo ondulante, prefiere áreas abiertas",
+      "coordinates": {
+        "latitude": -31.2532,
+        "longitude": 150.8456
+      },
+      "colorPrimary": "#FFE4B5",
+      "tags": [
+        "montañas",
+        "eucalipto",
+        "endémica",
+        "blanca"
+      ],
+      "publicId": "delias-argenthona"
+    },
+    {
+      "id": "16",
+      "commonName": "Skipper Dorada",
+      "scientificName": "Trapezites symmomus",
+      "family": "Hesperiidae",
+      "region": "Australia",
+      "specificLocation": "Victoria, Australia Meridional",
+      "habitat": "Praderas de gramíneas nativas",
+      "wingspan": 3.5,
+      "wingspanUnit": "cm",
+      "description": "Pequeña skipper con colores dorados y marrones. Endémica del sureste de Australia.",
+      "conservationStatus": "vulnerable",
+      "threatLevel": "Vulnerable",
+      "population": "fragmentada",
+      "flightSeason": [
+        "noviembre",
+        "diciembre",
+        "enero"
+      ],
+      "hostPlants": [
+        "Lomandra species",
+        "Dianella species"
+      ],
+      "nectarSources": [
+        "Flores nativas pequenas"
+      ],
+      "behavior": "Vuelo bajo entre gramíneas, territorial",
+      "coordinates": {
+        "latitude": -37.8136,
+        "longitude": 144.9631
+      },
+      "colorPrimary": "#B8860B",
+      "tags": [
+        "skipper",
+        "dorada",
+        "gramíneas",
+        "vulnerable"
+      ],
+      "publicId": "trapezites-symmomus"
+    },
+    {
+      "id": "17",
+      "commonName": "Blanca del Pacífico",
+      "scientificName": "Appias paulina",
+      "family": "Pieridae",
+      "region": "Islas del Pacífico",
+      "specificLocation": "Vanuatu, Nueva Caledonia",
+      "habitat": "Bosques costeros, jardines tropicales",
+      "wingspan": 6.8,
+      "wingspanUnit": "cm",
+      "description": "Mariposa blanca con bordes negros en las alas. Común en las islas del Pacífico occidental.",
+      "conservationStatus": "stable",
+      "threatLevel": "Preocupación menor",
+      "population": "común",
+      "flightSeason": [
+        "todo el año"
+      ],
+      "hostPlants": [
+        "Capparis species",
+        "Crateva religiosa"
+      ],
+      "nectarSources": [
+        "Lantana",
+        "Pentas",
+        "Flores tropicales"
+      ],
+      "behavior": "Vuelo rápido y directo, a menudo en grupos",
+      "coordinates": {
+        "latitude": -15.3767,
+        "longitude": 166.9592
+      },
+      "colorPrimary": "#F0F8FF",
+      "tags": [
+        "blanca",
+        "costera",
+        "común",
+        "vanuatu"
+      ],
+      "publicId": "appias-paulina"
+    },
+    {
+      "id": "18",
+      "commonName": "Azul de Lord Howe",
+      "scientificName": "Lampides boeticus",
+      "family": "Lycaenidae",
+      "region": "Australia",
+      "specificLocation": "Isla Lord Howe, NSW",
+      "habitat": "Áreas abiertas, jardines, campos de leguminosas",
+      "wingspan": 3,
+      "wingspanUnit": "cm",
+      "description": "Pequeña mariposa azul que se encuentra desde África hasta Australia. Muy migratoria y adaptable.",
+      "conservationStatus": "stable",
+      "threatLevel": "Preocupación menor",
+      "population": "común",
+      "flightSeason": [
+        "todo el año"
+      ],
+      "hostPlants": [
+        "Vigna marina",
+        "Canavalia rosea",
+        "Leguminosas"
+      ],
+      "nectarSources": [
+        "Flores pequeñas",
+        "Lantana",
+        "Scaevola"
+      ],
+      "behavior": "Vuelo rápido, muy migratoria",
+      "coordinates": {
+        "latitude": -31.5547,
+        "longitude": 159.0877
+      },
+      "colorPrimary": "#4169E1",
+      "tags": [
+        "azul",
+        "migratoria",
+        "lord howe",
+        "leguminosas"
+      ],
+      "publicId": "lampides-boeticus"
+    },
+    {
+      "id": "19",
+      "commonName": "Mariposa de la Pasión",
+      "scientificName": "Acraea andromacha",
+      "family": "Nymphalidae",
+      "region": "Islas del Pacífico",
+      "specificLocation": "Nueva Caledonia",
+      "habitat": "Bosques húmedos, claros forestales",
+      "wingspan": 5.5,
+      "wingspanUnit": "cm",
+      "description": "Mariposa de colores naranja y negro con patrones distintivos. Endémica de Nueva Caledonia.",
+      "conservationStatus": "vulnerable",
+      "threatLevel": "Vulnerable",
+      "population": "localizada",
+      "flightSeason": [
+        "noviembre",
+        "diciembre",
+        "enero",
+        "febrero"
+      ],
+      "hostPlants": [
+        "Passiflora suberosa",
+        "Passiflora foetida"
+      ],
+      "nectarSources": [
+        "Flores nativas",
+        "Hibiscus"
+      ],
+      "behavior": "Vuelo lento, prefiere áreas sombreadas",
+      "coordinates": {
+        "latitude": -21.2744,
+        "longitude": 165.7618
+      },
+      "colorPrimary": "#FF8C00",
+      "tags": [
+        "endémica",
+        "nueva caledonia",
+        "pasión",
+        "vulnerable"
+      ],
+      "publicId": "acraea-andromacha"
+    },
+    {
+      "id": "20",
+      "commonName": "Emperador del Pacífico",
+      "scientificName": "Charaxes bernardus",
+      "family": "Nymphalidae",
+      "region": "Islas del Pacífico",
+      "specificLocation": "Islas Salomón, Vanuatu",
+      "habitat": "Bosques tropicales, áreas ribereñas",
+      "wingspan": 13.2,
+      "wingspanUnit": "cm",
+      "description": "Gran mariposa emperador con patrones complejos marrones y dorados. Vuelo poderoso y territorial.",
+      "conservationStatus": "stable",
+      "threatLevel": "Preocupación menor",
+      "population": "estable",
+      "flightSeason": [
+        "todo el año"
+      ],
+      "hostPlants": [
+        "Croton species",
+        "Macaranga species"
+      ],
+      "nectarSources": [
+        "Frutos fermentados",
+        "Savia de árboles",
+        "Minerales"
+      ],
+      "behavior": "Territorial, vuela alto, atraída por carroña",
+      "coordinates": {
+        "latitude": -9.6457,
+        "longitude": 160.1562
+      },
+      "colorPrimary": "#8B4513",
+      "tags": [
+        "emperador",
+        "grande",
+        "territorial",
+        "salomón"
+      ],
+      "publicId": "charaxes-bernardus"
+    },
+    {
+      "id": "21",
+      "commonName": "Golondrina de los Huertos",
+      "scientificName": "Papilio aegeus",
+      "family": "Papilionidae",
+      "region": "Australia",
+      "specificLocation": "Este de Australia, desde Queensland hasta Victoria",
+      "habitat": "Jardines urbanos, huertos de cítricos, bosques",
+      "wingspan": 12,
+      "wingspanUnit": "cm",
+      "description": "Mariposa grande y común en jardines. Los machos son negros con una banda blanca, mientras que las hembras tienen patrones más complejos.",
+      "conservationStatus": "stable",
+      "threatLevel": "Preocupación menor",
+      "population": "abundante",
+      "flightSeason": [
+        "septiembre",
+        "octubre",
+        "noviembre",
+        "diciembre",
+        "enero",
+        "febrero",
+        "marzo"
+      ],
+      "hostPlants": [
+        "Citrus species",
+        "Zanthoxylum species"
+      ],
+      "nectarSources": [
+        "Lantana",
+        "Buddleja",
+        "Pentas"
+      ],
+      "behavior": "Vuelo fuerte y directo, común en áreas suburbanas",
+      "coordinates": {
+        "latitude": -28.0167,
+        "longitude": 153.4
+      },
+      "colorPrimary": "#3A3B3C",
+      "tags": [
+        "jardín",
+        "cítricos",
+        "común",
+        "negra"
+      ],
+      "publicId": "papilio-aegeus"
+    },
+    {
+      "id": "22",
+      "commonName": "Triángulo Azul Común",
+      "scientificName": "Graphium sarpedon",
+      "family": "Papilionidae",
+      "region": "Australia",
+      "specificLocation": "Costa Este de Australia, Nueva Gales del Sur",
+      "habitat": "Bosques húmedos, parques y jardines",
+      "wingspan": 7.5,
+      "wingspanUnit": "cm",
+      "description": "Mariposa de vuelo extremadamente rápido con una distintiva banda triangular de color azul turquesa sobre alas negras.",
+      "conservationStatus": "stable",
+      "threatLevel": "Preocupación menor",
+      "population": "común",
+      "flightSeason": [
+        "noviembre",
+        "diciembre",
+        "enero",
+        "febrero",
+        "marzo"
+      ],
+      "hostPlants": [
+        "Cinnamomum camphora",
+        "Litsea reticulata"
+      ],
+      "nectarSources": [
+        "Lantana",
+        "Pentas"
+      ],
+      "behavior": "Vuelo muy rápido y errático, difícil de seguir",
+      "coordinates": {
+        "latitude": -33.865143,
+        "longitude": 151.2099
+      },
+      "colorPrimary": "#00AEEF",
+      "tags": [
+        "rápida",
+        "triángulo",
+        "azul turquesa",
+        "urbana"
+      ],
+      "publicId": "graphium-sarpedon"
+    },
+    {
+      "id": "23",
+      "commonName": "Cuervo Común",
+      "scientificName": "Euploea core",
+      "family": "Nymphalidae",
+      "region": "Australia",
+      "specificLocation": "Norte y Este de Australia",
+      "habitat": "Bosques abiertos, áreas costeras, jardines",
+      "wingspan": 8.5,
+      "wingspanUnit": "cm",
+      "description": "Mariposa de color marrón oscuro a negro con manchas blancas en los bordes de las alas. Es conocida por ser un modelo para el mimetismo.",
+      "conservationStatus": "stable",
+      "threatLevel": "Preocupación menor",
+      "population": "muy abundante",
+      "flightSeason": [
+        "todo el año"
+      ],
+      "hostPlants": [
+        "Hoya australis",
+        "Ficus species",
+        "Nerium oleander"
+      ],
+      "nectarSources": [
+        "Eucalyptus",
+        "Grevillea"
+      ],
+      "behavior": "Vuelo lento y planeador, a menudo en grandes grupos",
+      "coordinates": {
+        "latitude": -19.2588,
+        "longitude": 146.8169
+      },
+      "colorPrimary": "#4A2A2A",
+      "tags": [
+        "mimetismo",
+        "marrón oscuro",
+        "abundante",
+        "costera"
+      ],
+      "publicId": "euploea-core"
+    },
+    {
+      "id": "24",
+      "commonName": "Almirante Amarillo",
+      "scientificName": "Vanessa itea",
+      "family": "Nymphalidae",
+      "region": "Australia",
+      "specificLocation": "Sur de Australia, Tasmania, Nueva Zelanda",
+      "habitat": "Jardines, praderas, dunas costeras",
+      "wingspan": 5,
+      "wingspanUnit": "cm",
+      "description": "Similar a la Almirante Roja de Nueva Zelanda, pero con una distintiva banda amarilla en lugar de roja en las alas delanteras.",
+      "conservationStatus": "stable",
+      "threatLevel": "Preocupación menor",
+      "population": "común",
+      "flightSeason": [
+        "septiembre",
+        "octubre",
+        "noviembre",
+        "diciembre",
+        "enero",
+        "febrero"
+      ],
+      "hostPlants": [
+        "Urtica species",
+        "Parietaria debilis"
+      ],
+      "nectarSources": [
+        "Buddleja",
+        "Hebe",
+        "Lantana"
+      ],
+      "behavior": "Vuelo rápido y territorial, le gusta tomar el sol",
+      "coordinates": {
+        "latitude": -34.9285,
+        "longitude": 138.6007
+      },
+      "colorPrimary": "#FFD700",
+      "tags": [
+        "amarillo",
+        "común",
+        "jardines",
+        "territorial"
+      ],
+      "publicId": "vanessa-itea"
+    },
+    {
+      "id": "25",
+      "commonName": "Mariposa Reina Alejandra",
+      "scientificName": "Ornithoptera alexandrae",
+      "family": "Papilionidae",
+      "region": "Islas del Pacífico",
+      "specificLocation": "Provincia de Oro, Papúa Nueva Guinea",
+      "habitat": "Bosque lluvioso primario muy restringido",
+      "wingspan": 25,
+      "wingspanUnit": "cm",
+      "description": "La mariposa más grande del mundo. Las hembras son más grandes y marrones, los machos son de un espectacular verde y azul. En peligro crítico.",
+      "conservationStatus": "endangered",
+      "threatLevel": "En peligro crítico",
+      "population": "muy rara y localizada",
+      "flightSeason": [
+        "desconocido"
+      ],
+      "hostPlants": [
+        "Aristolochia schlecteri"
+      ],
+      "nectarSources": [
+        "Flores de dosel"
+      ],
+      "behavior": "Vuela muy alto en el dosel del bosque",
+      "coordinates": {
+        "latitude": -8.8833,
+        "longitude": 147.9333
+      },
+      "colorPrimary": "#008000",
+      "tags": [
+        "más grande del mundo",
+        "en peligro crítico",
+        "papua",
+        "rara"
+      ],
+      "publicId": "ornithoptera-alexandrae"
+    },
+    {
+      "id": "26",
+      "commonName": "Emperador de la Jungla de Fuego",
+      "scientificName": "Charaxes cydippe",
+      "family": "Nymphalidae",
+      "region": "Islas del Pacífico",
+      "specificLocation": "Papúa Nueva Guinea, Islas Molucas",
+      "habitat": "Selvas tropicales de tierras bajas",
+      "wingspan": 9,
+      "wingspanUnit": "cm",
+      "description": "Mariposa de un naranja intenso y llamativo con patrones negros. Conocida por su vuelo extremadamente rápido y potente.",
+      "conservationStatus": "stable",
+      "threatLevel": "Preocupación menor",
+      "population": "común localmente",
+      "flightSeason": [
+        "todo el año"
+      ],
+      "hostPlants": [
+        "Croton species"
+      ],
+      "nectarSources": [
+        "Fruta en descomposición",
+        "savia de árboles"
+      ],
+      "behavior": "Muy territorial y agresiva, vuela muy rápido",
+      "coordinates": {
+        "latitude": -5.688,
+        "longitude": 145.766
+      },
+      "colorPrimary": "#FF4500",
+      "tags": [
+        "naranja intenso",
+        "rápida",
+        "agresiva",
+        "papua"
+      ],
+      "publicId": "charaxes-cydippe"
+    },
+    {
+      "id": "28",
+      "commonName": "Jezebel Común",
+      "scientificName": "Delias eucharis",
+      "family": "Pieridae",
+      "region": "Australia",
+      "specificLocation": "Norte de Queensland (introducida)",
+      "habitat": "Jardines y bosques abiertos",
+      "wingspan": 7,
+      "wingspanUnit": "cm",
+      "description": "Mariposa de tamaño mediano con alas blancas y venas negras. La parte inferior tiene un vibrante color amarillo y manchas rojas en los bordes.",
+      "conservationStatus": "stable",
+      "threatLevel": "Preocupación menor",
+      "population": "común",
+      "flightSeason": [
+        "todo el año"
+      ],
+      "hostPlants": [
+        "Loranthus species"
+      ],
+      "nectarSources": [
+        "Lantana",
+        "Ixora"
+      ],
+      "behavior": "Vuelo lento y delicado, a menudo en el dosel",
+      "coordinates": {
+        "latitude": -16.9186,
+        "longitude": 145.7781
+      },
+      "colorPrimary": "#FFFF00",
+      "tags": [
+        "amarillo y rojo",
+        "delicada",
+        "común",
+        "jezebel"
+      ],
+      "publicId": "delias-eucharis"
+    },
+    {
+      "id": "29",
+      "commonName": "Ojo de Pavo Real Amarillo",
+      "scientificName": "Junonia villida",
+      "family": "Nymphalidae",
+      "region": "Australia",
+      "specificLocation": "Toda Australia y Nueva Zelanda",
+      "habitat": "Áreas abiertas y soleadas, jardines, marismas",
+      "wingspan": 4.5,
+      "wingspanUnit": "cm",
+      "description": "Mariposa marrón con grandes y llamativos ocelos (manchas oculares) en cada ala, de color azul, naranja y amarillo.",
+      "conservationStatus": "stable",
+      "threatLevel": "Preocupación menor",
+      "population": "muy común",
+      "flightSeason": [
+        "todo el año"
+      ],
+      "hostPlants": [
+        "Plantago species",
+        "Centaurium species"
+      ],
+      "nectarSources": [
+        "Verbena",
+        "Lantana"
+      ],
+      "behavior": "Vuelo bajo y rápido, territorial",
+      "coordinates": {
+        "latitude": -35.282001,
+        "longitude": 149.128998
+      },
+      "colorPrimary": "#E69A00",
+      "tags": [
+        "ocelos",
+        "marrón",
+        "común",
+        "australia"
+      ],
+      "publicId": "junonia-villida"
+    },
+    {
+      "id": "30",
+      "commonName": "Tigre de Cristal",
+      "scientificName": "Parantica sita",
+      "family": "Nymphalidae",
+      "region": "Islas del Pacífico",
+      "specificLocation": "Papúa Nueva Guinea",
+      "habitat": "Bosques montañosos húmedos",
+      "wingspan": 10,
+      "wingspanUnit": "cm",
+      "description": "Mariposa con alas semitransparentes de color azul pálido, venas negras y manchas que se asemejan al cristal.",
+      "conservationStatus": "stable",
+      "threatLevel": "Preocupación menor",
+      "population": "estable",
+      "flightSeason": [
+        "marzo",
+        "abril",
+        "mayo"
+      ],
+      "hostPlants": [
+        "Tylophora species"
+      ],
+      "nectarSources": [
+        "Flores de bosque"
+      ],
+      "behavior": "Vuelo lento y elegante, migratoria",
+      "coordinates": {
+        "latitude": -9.4438,
+        "longitude": 147.1803
+      },
+      "colorPrimary": "#ADD8E6",
+      "tags": [
+        "transparente",
+        "azul pálido",
+        "montaña",
+        "papua"
+      ],
+      "publicId": "parantica-sita"
+    },
+    {
+      "id": "31",
+      "commonName": "Lacedaemon de Papúa",
+      "scientificName": "Papilio laglaizei",
+      "family": "Papilionidae",
+      "region": "Islas del Pacífico",
+      "specificLocation": "Papúa Nueva Guinea",
+      "habitat": "Selva tropical",
+      "wingspan": 9,
+      "wingspanUnit": "cm",
+      "description": "Increíble mimetismo de polilla. Aunque es una mariposa, sus colores y patrones imitan a la polilla tóxica Alcidis agathyrsus.",
+      "conservationStatus": "stable",
+      "threatLevel": "Preocupación menor",
+      "population": "estable",
+      "flightSeason": [
+        "desconocido"
+      ],
+      "hostPlants": [
+        "Litsea species"
+      ],
+      "nectarSources": [
+        "desconocido"
+      ],
+      "behavior": "Mimetismo batesiano",
+      "coordinates": {
+        "latitude": -6.315,
+        "longitude": 143.9555
+      },
+      "colorPrimary": "#556B2F",
+      "tags": [
+        "mimetismo polilla",
+        "única",
+        "verde oscuro",
+        "papua"
+      ],
+      "publicId": "papilio-laglaizei"
+    },
+    {
+      "id": "32",
+      "commonName": "Argus de la Montaña",
+      "scientificName": "Candalides heathi",
+      "family": "Lycaenidae",
+      "region": "Australia",
+      "specificLocation": "Sur de Australia, Victoria, Tasmania",
+      "habitat": "Bosques esclerófilos, brezales costeros",
+      "wingspan": 3,
+      "wingspanUnit": "cm",
+      "description": "Pequeña mariposa azulada. La parte superior de los machos es azul pálido iridiscente, mientras que las hembras son marrones.",
+      "conservationStatus": "stable",
+      "threatLevel": "Preocupación menor",
+      "population": "común",
+      "flightSeason": [
+        "octubre",
+        "noviembre",
+        "diciembre",
+        "enero"
+      ],
+      "hostPlants": [
+        "Pimelea species"
+      ],
+      "nectarSources": [
+        "Bursaria spinosa",
+        "Leptospermum"
+      ],
+      "behavior": "Vuelo débil cerca de sus plantas hospederas",
+      "coordinates": {
+        "latitude": -37.8136,
+        "longitude": 144.9631
+      },
+      "colorPrimary": "#AEC6CF",
+      "tags": [
+        "pequeña",
+        "azul pálido",
+        "costera",
+        "australia"
+      ],
+      "publicId": "candalides-heathi"
+    },
+    {
+      "id": "33",
+      "commonName": "Joyas de la Selva",
+      "scientificName": "Hypochrysops aprotus",
+      "family": "Lycaenidae",
+      "region": "Australia",
+      "specificLocation": "Queensland del norte",
+      "habitat": "Bosques lluviosos tropicales",
+      "wingspan": 3.5,
+      "wingspanUnit": "cm",
+      "description": "Una de las mariposas 'joya' de Australia, con un increíble brillo metálico verde y azul en la parte superior.",
+      "conservationStatus": "vulnerable",
+      "threatLevel": "Vulnerable",
+      "population": "rara",
+      "flightSeason": [
+        "diciembre",
+        "enero"
+      ],
+      "hostPlants": [
+        "Commersonia bartramia"
+      ],
+      "nectarSources": [
+        "Flores de dosel"
+      ],
+      "behavior": "Vive en simbiosis con hormigas",
+      "coordinates": {
+        "latitude": -17,
+        "longitude": 145.4167
+      },
+      "colorPrimary": "#08E8DE",
+      "tags": [
+        "joya",
+        "metálica",
+        "verde azul",
+        "rara"
+      ],
+      "publicId": "hypochrysops-aprotus"
+    },
+    {
+      "id": "34",
+      "commonName": "Demonio de la Tarde",
+      "scientificName": "Chaetocneme denitza",
+      "family": "Hesperiidae",
+      "region": "Australia",
+      "specificLocation": "Costa este, desde Queensland hasta Victoria",
+      "habitat": "Bosques húmedos y selvas tropicales",
+      "wingspan": 6,
+      "wingspanUnit": "cm",
+      "description": "Mariposa skipper grande y de color marrón oscuro. Es crepuscular, volando activamente al amanecer y al atardecer.",
+      "conservationStatus": "stable",
+      "threatLevel": "Preocupación menor",
+      "population": "estable",
+      "flightSeason": [
+        "octubre",
+        "noviembre",
+        "diciembre",
+        "enero",
+        "febrero"
+      ],
+      "hostPlants": [
+        "Lophostemon confertus"
+      ],
+      "nectarSources": [
+        "Flores de Eucalipto"
+      ],
+      "behavior": "Crepuscular, vuelo muy rápido",
+      "coordinates": {
+        "latitude": -27.641,
+        "longitude": 153.118
+      },
+      "colorPrimary": "#3D2B1F",
+      "tags": [
+        "crepuscular",
+        "marrón",
+        "skipper",
+        "rápida"
+      ],
+      "publicId": "chaetocneme-denitza"
+    },
+    {
+      "id": "35",
+      "commonName": "Ala de Pájaro del Paraíso",
+      "scientificName": "Ornithoptera paradisea",
+      "family": "Papilionidae",
+      "region": "Islas del Pacífico",
+      "specificLocation": "Nueva Guinea",
+      "habitat": "Selva tropical de tierras bajas",
+      "wingspan": 15,
+      "wingspanUnit": "cm",
+      "description": "Famosa por las colas largas y delgadas en las alas traseras del macho. Combina colores verde, amarillo y negro.",
+      "conservationStatus": "vulnerable",
+      "threatLevel": "Casi amenazada",
+      "population": "en declive",
+      "flightSeason": [
+        "mayo",
+        "junio",
+        "julio",
+        "agosto"
+      ],
+      "hostPlants": [
+        "Aristolochia species"
+      ],
+      "nectarSources": [
+        "Spathodea campanulata"
+      ],
+      "behavior": "Vuelo majestuoso en el dosel",
+      "coordinates": {
+        "latitude": -5.688,
+        "longitude": 145.766
+      },
+      "colorPrimary": "#9ACD32",
+      "tags": [
+        "ala de pájaro",
+        "colas largas",
+        "verde y amarillo",
+        "nueva guinea"
+      ],
+      "publicId": "ornithoptera-paradisea"
+    },
+    {
+      "id": "36",
+      "commonName": "Azul de Montaña de Nueva Zelanda",
+      "scientificName": "Zizina otis",
+      "family": "Lycaenidae",
+      "region": "Nueva Zelanda",
+      "specificLocation": "Áreas montañosas de la Isla Sur",
+      "habitat": "Lechos de ríos trenzados y praderas alpinas",
+      "wingspan": 2.2,
+      "wingspanUnit": "cm",
+      "description": "Una de las mariposas más pequeñas de Nueva Zelanda. Los machos tienen un color azul violeta pálido en la parte superior.",
+      "conservationStatus": "stable",
+      "threatLevel": "Preocupación menor",
+      "population": "común localmente",
+      "flightSeason": [
+        "noviembre",
+        "diciembre",
+        "enero",
+        "febrero"
+      ],
+      "hostPlants": [
+        "Fabaceae species"
+      ],
+      "nectarSources": [
+        "Flores alpinas nativas"
+      ],
+      "behavior": "Vuela cerca del suelo en hábitats abiertos",
+      "coordinates": {
+        "latitude": -43.5256,
+        "longitude": 170.502
+      },
+      "colorPrimary": "#9370DB",
+      "tags": [
+        "más pequeña",
+        "azul violeta",
+        "alpina",
+        "nueva zelanda"
+      ],
+      "publicId": "zizina-otis"
+    },
+    {
+      "id": "37",
+      "commonName": "Dama Pintada Australiana",
+      "scientificName": "Vanessa kershawi",
+      "family": "Nymphalidae",
+      "region": "Australia",
+      "specificLocation": "Toda Australia",
+      "habitat": "Casi cualquier hábitat, muy adaptable",
+      "wingspan": 5,
+      "wingspanUnit": "cm",
+      "description": "Famosa por sus masivas migraciones irregulares que pueden cubrir todo el continente. Similar a la Dama Pintada global.",
+      "conservationStatus": "stable",
+      "threatLevel": "Preocupación menor",
+      "population": "fluctuante, a veces masiva",
+      "flightSeason": [
+        "primavera",
+        "verano"
+      ],
+      "hostPlants": [
+        "Helichrysum species",
+        "Arctotheca calendula"
+      ],
+      "nectarSources": [
+        "Una amplia variedad de flores"
+      ],
+      "behavior": "Migraciones masivas, vuelo rápido",
+      "coordinates": {
+        "latitude": -31.953512,
+        "longitude": 115.857048
+      },
+      "colorPrimary": "#F4A460",
+      "tags": [
+        "migratoria masiva",
+        "adaptable",
+        "naranja",
+        "australia"
+      ],
+      "publicId": "vanessa-kershawi"
+    },
+    {
+      "id": "38",
+      "commonName": "Cola de Espada de las Cinco Barras",
+      "scientificName": "Graphium aristeus",
+      "family": "Papilionidae",
+      "region": "Australia",
+      "specificLocation": "Península del Cabo York, Queensland",
+      "habitat": "Bosques monzónicos y viñedos de la selva",
+      "wingspan": 7,
+      "wingspanUnit": "cm",
+      "description": "Elegante mariposa con colas largas y delgadas. Tiene patrones de rayas negras sobre un fondo blanco verdoso.",
+      "conservationStatus": "stable",
+      "threatLevel": "Preocupación menor",
+      "population": "rara",
+      "flightSeason": [
+        "enero",
+        "febrero",
+        "marzo"
+      ],
+      "hostPlants": [
+        "Miliusa traceyi"
+      ],
+      "nectarSources": [
+        "Flores de dosel"
+      ],
+      "behavior": "Vuelo rápido, a menudo cerca de arroyos",
+      "coordinates": {
+        "latitude": -10.8833,
+        "longitude": 142.4667
+      },
+      "colorPrimary": "#C1E1C1",
+      "tags": [
+        "cola de espada",
+        "rayas",
+        "rara",
+        "cabo york"
+      ],
+      "publicId": "graphium-aristeus"
+    },
+    {
+      "id": "39",
+      "commonName": "Pierrot Común",
+      "scientificName": "Castalius rosimon",
+      "family": "Lycaenidae",
+      "region": "Australia",
+      "specificLocation": "Territorio del Norte, Queensland",
+      "habitat": "Bosques abiertos y sabanas",
+      "wingspan": 2.8,
+      "wingspanUnit": "cm",
+      "description": "Pequeña mariposa blanca con distintivas manchas y patrones negros, similar a un disfraz de pierrot.",
+      "conservationStatus": "stable",
+      "threatLevel": "Preocupación menor",
+      "population": "común",
+      "flightSeason": [
+        "todo el año"
+      ],
+      "hostPlants": [
+        "Ziziphus jujuba"
+      ],
+      "nectarSources": [
+        "Flores pequeñas"
+      ],
+      "behavior": "Vuelo débil y errático cerca del suelo",
+      "coordinates": {
+        "latitude": -12.4634,
+        "longitude": 130.8456
+      },
+      "colorPrimary": "#FFFFFF",
+      "tags": [
+        "pequeña",
+        "blanco y negro",
+        "pierrot",
+        "sabana"
+      ],
+      "publicId": "castalius-rosimon"
+    },
+    {
+      "id": "40",
+      "commonName": "Mariposa Pavo Real de las Salomón",
+      "scientificName": "Papilio toboroi",
+      "family": "Papilionidae",
+      "region": "Islas del Pacífico",
+      "specificLocation": "Islas Salomón",
+      "habitat": "Bosques montañosos",
+      "wingspan": 11,
+      "wingspanUnit": "cm",
+      "description": "Espectacular mariposa pavo real con ocelos azules iridiscentes y bandas en las alas traseras sobre un fondo negro.",
+      "conservationStatus": "vulnerable",
+      "threatLevel": "Vulnerable",
+      "population": "muy localizada",
+      "flightSeason": [
+        "desconocido"
+      ],
+      "hostPlants": [
+        "desconocido"
+      ],
+      "nectarSources": [
+        "desconocido"
+      ],
+      "behavior": "Vuelo rápido en el dosel",
+      "coordinates": {
+        "latitude": -8.455,
+        "longitude": 159.622
+      },
+      "colorPrimary": "#00CED1",
+      "tags": [
+        "pavo real",
+        "ocelos azules",
+        "vulnerable",
+        "salomón"
+      ],
+      "publicId": "papilio-toboroi"
+    }
+  ]
+}

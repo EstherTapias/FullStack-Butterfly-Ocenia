@@ -1,0 +1,38 @@
+.card-carousel-wrapper {
+  width: 100%;
+  padding: 2rem 0;
+  box-sizing: border-box;
+  margin-top: 4rem;
+}
+
+.carousel-title{
+  text-align: center;
+  font-size: 2rem;
+  color: #1B4332;
+  margin-bottom: 1.5rem;
+  font-weight: bold;
+}
+
+.card-carousel-p{
+    text-align: center;
+    font-size: 1rem;
+    margin-top: 1.5rem;
+    margin-bottom: 2.5rem;
+    padding: 3%;
+}
+
+.card-carousel-section {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  box-sizing: border-box;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  color: #1B4332;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #1B4332;
+}

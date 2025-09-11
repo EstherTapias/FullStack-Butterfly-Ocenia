@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+button {
+    background-color: #F4C430;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 8px;
+    border: 1px solid transparent;
+    margin: 2px;
+    padding:0.4em 1em;
+    text-transform: uppercase;
+    display: inline-block;
+    font-size: 0.9rem;
+    transition: border-color 0.3 ease;
+}
+button:hover{
+    border-color: #1B4332;
+}

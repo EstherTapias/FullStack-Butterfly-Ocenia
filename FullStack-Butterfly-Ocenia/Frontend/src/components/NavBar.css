@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+
+.navbar {
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 70px;
+  z-index: 9999;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.9rem;
+  transition: background-color 0.4s ease, box-shadow 0.4s ease;
+}
+
+
+.navbar-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 100%;
+  padding: 0 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+.navbar-logo {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  gap: 0rem;
+  max-width: 70%;
+}
+
+.logo-mobile {
+  display: none;
+  height: 165px;
+  width: auto;
+}
+
+.logo-desktop {
+  height: 60px;
+  margin-right: 0rem;
+  display: inline-block;
+}
+
+.logo-text {
+  font-size: 1rem;
+  font-weight: 600;
+  color: white;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: inline-block;
+}
+
+.menu-button {
+  background: transparent;
+  border: none;
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 1rem;
+  cursor: pointer;
+  display: none;
+  z-index: 1101;
+  transition: transform 0.2s ease;
+}
+
+.menu-button:hover {
+  transform: scale(1.1);
+}
+
+.navbar-links {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: white;
+  font-weight: 400;
+  padding: 0.5rem 0.75rem;
+  border-radius: 4px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  background-color: rgba(255,255,255,0.15);
+  color: #cce3da;
+}
+
+.active-link {
+  color: #cce3da;
+  font-weight: 400;
+}
+
+
+/* Navbar con color al hacer scroll */
+.navbar.scrolled {
+  background-color: #1B4332;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  transition: background-color 0.4s ease, box-shadow 0.4s ease;
+}
+
+/* FULLSCREEN BURGER MENU AND LOGOTYPE (responsive) */
+
+
+@media (max-width: 1024px) { /*pixeles para que sea responsive antes de romperse el estilo del nav */
+  .logo-desktop,
+  .logo-text {
+    display: none; /* Oculta el texto en móvil */
+  }
+
+  .logo-mobile {
+    display: inline-block;
+  }
+
+  .navbar-links {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #B7B7A4;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 5rem 2rem 2rem;
+    gap: 1.2rem;
+    z-index: 1100;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+  }
+
+  .navbar-links.menu-open {
+    display: flex;
+  }
+
+  .nav-link {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+    width: 100%;
+    padding: 0.8rem 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3); /* Línea blanca sutil */
+    transition: color 0.3s ease;
+  }
+
+  .nav-link:hover,
+  .nav-link:focus {
+    color: #f0fff0; /* Blanco más claro al pasar */
+  }
+
+  .menu-button {
+    display: block;
+    background: transparent;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    position: absolute;
+    top: 0.5rem;
+    right: 1.5rem;
+    z-index: 1201;
+    cursor: pointer;
+  }
+
+  .navbar-logo {
+    font-size: 1rem;
+    max-width: 70%;
+  }
+}
