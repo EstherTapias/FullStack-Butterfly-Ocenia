@@ -1,0 +1,54 @@
+.searchContainer {
+  display: flex;
+  justify-content:space-around; 
+  align-items: left;
+  flex-direction: column;
+  
+}
+.threatButtons {
+  gap: 10px;
+  align-items: left;
+}
+.threatContainer{
+  padding: 0.5%;
+  border-radius: 5px;
+  align-items: left;
+}
+
+.threatTitle{
+text-align: left;
+margin: auto;
+}
+
+.regionContainer{
+  padding: 0.5%;
+  border-radius: 5px;
+  align-items: center;
+}
+
+.regionButtons {
+  display: flex;
+  gap: 10px;
+}
+
+.filterOptions {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.allButton {
+  margin-top: 25px;
+}
+
+@media(max-width:640px){
+.regionButtons {
+  display: flex;
+  flex-wrap: wrap;
+}
+.filterOptions{
+  display: flex;
+  flex-direction: column;
+}
+}

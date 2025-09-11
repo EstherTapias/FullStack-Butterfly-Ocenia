@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Playfair+Display:wght@400;600;700&display=swap');
+
+.butterflyDetailWrapper {
+  display: flex !important;
+  justify-content: center !important;
+  padding: 40px 20px 80px 20px;
+  min-height: 100vh;
+  box-sizing: border-box;
+  width: 100%;
+  align-items: center !important;
+}
+
+.detailWindow {
+  max-width: 700px;
+  padding: 20px 30px;
+  background-color: #fefefe;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  align-items: center;
+  justify-self: center;
+}
+
+.detailHeader {
+  text-align: center;
+  margin-bottom: 25px;
+}
+.detailHeader h1,
+h3 {
+  font-weight: 700;
+  margin-bottom: 5px;
+  font-family: "Playfair Display", serif;
+}
+
+.detailList {
+  line-height: 1.6;
+
+}
+
+.detailList p {
+  margin: 8px 0;
+  font-family:  'Open Sans', sans-serif;
+}
+
+.detailList br {
+  margin-bottom: 12px;
+  display: block;
+}
+
+img.butterflyImage {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto 25px;
+  border-radius: 12px;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.1);
+}
+
+.butterflyImage {
+  width: 200px;
+  height: 400px;
+  object-fit: contain;
+  margin-top: 10px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}

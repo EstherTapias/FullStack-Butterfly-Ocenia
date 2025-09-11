@@ -1,0 +1,12 @@
+{
+  "name": "fullstack-butterfly-ocenia",
+  "version": "1.0.0",
+  "description": "Unión de frontend y backend del proyecto de las mariposas en Ocenia",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
