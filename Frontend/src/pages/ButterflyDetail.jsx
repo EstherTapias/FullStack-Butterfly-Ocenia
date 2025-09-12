@@ -13,15 +13,19 @@ const ButterflyDetail = () => {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
 
-  // Función helper para parsear arrays JSON de forma segura
-  const parseJsonArray = (jsonString, fallback = "No disponible") => {
-    if (!jsonString) return fallback;
+  // 🔧 Helper para manejar arrays que vienen como JSON o directamente como array
+  const formatArray = (data) => {
+    if (!data) return "No disponible";
+
+    if (Array.isArray(data)) {
+      return data.join(", ");
+    }
+
     try {
-      const parsed = JSON.parse(jsonString);
-      return Array.isArray(parsed) ? parsed.join(", ") : jsonString;
-    } catch (e) {
-      console.warn("Error parsing JSON:", jsonString);
-      return jsonString || fallback;
+      const parsed = JSON.parse(data);
+      return Array.isArray(parsed) ? parsed.join(", ") : data;
+    } catch {
+      return data; // fallback si no es array ni JSON
     }
   };
 
@@ -35,11 +39,9 @@ const ButterflyDetail = () => {
         const bfDetail = await getOneButterfly(id);
         
         console.log("Datos recibidos:", bfDetail);
-        console.log("Tipo de datos:", typeof bfDetail);
         
         if (bfDetail) {
           setButterfly(bfDetail);
-          console.log("Butterfly state actualizado:", bfDetail);
         } else {
           setError("No se encontraron datos de la mariposa");
         }
@@ -108,103 +110,52 @@ const ButterflyDetail = () => {
         </div>
         
         <div className="detailList">
-          <p>
-            <strong>
-              <i className="fa-solid fa-location-dot" style={{ marginRight: "8px" }}></i>
-              Ubicación
-            </strong>
-          </p>
+          <p><strong><i className="fa-solid fa-location-dot"></i> Ubicación</strong></p>
           <p>{butterfly.region || "No disponible"}, {butterfly.specificLocation || "No disponible"}</p>
           <br />
 
-          <p>
-            <strong>
-              <i className="fa-solid fa-ruler" style={{ marginRight: "8px" }}></i>
-              Tamaño
-            </strong>
-          </p>
-          <p>{butterfly.wingspan || "No disponible"}{butterfly.wingspanUnit || ""}</p>
+          <p><strong><i className="fa-solid fa-ruler"></i> Tamaño</strong></p>
+          <p>{butterfly.wingspan || "No disponible"} {butterfly.wingspanUnit || ""}</p>
           <br />
 
-          <p>
-            <strong>
-              <i className="fa-solid fa-plane" style={{ marginRight: "8px" }}></i>
-              Temporada de Vuelo
-            </strong>
-          </p>
-          <p>{parseJsonArray(butterfly.flightSeason)}</p>
+          <p><strong><i className="fa-solid fa-plane"></i> Temporada de Vuelo</strong></p>
+          <p>{formatArray(butterfly.flightSeason)}</p>
           <br />
 
-          <p>
-            <strong>
-              <i className="fa-solid fa-triangle-exclamation" style={{ marginRight: "8px" }}></i>
-              Estado de Conservación
-            </strong>
-          </p>
+          <p><strong><i className="fa-solid fa-triangle-exclamation"></i> Estado de Conservación</strong></p>
           <p>{butterfly.threatLevel || "No disponible"}</p>
           <br />
 
-          <p>
-            <strong>
-              <i className="fa-solid fa-people-group" style={{ marginRight: "8px" }}></i>
-              Población
-            </strong>
-          </p>
+          <p><strong><i className="fa-solid fa-people-group"></i> Población</strong></p>
           <p>{butterfly.population || "No disponible"}</p>
           <br />
 
-          <p>
-            <strong>
-              <i className="fa-solid fa-people-roof" style={{ marginRight: "8px" }}></i>
-              Familia
-            </strong>
-          </p>
+          <p><strong><i className="fa-solid fa-people-roof"></i> Familia</strong></p>
           <p>{butterfly.family || "No disponible"}</p>
           <br />
 
-          <p>
-            <strong>
-              <i className="fa-solid fa-tree" style={{ marginRight: "8px" }}></i>
-              Hábitat
-            </strong>
-          </p>
+          <p><strong><i className="fa-solid fa-tree"></i> Hábitat</strong></p>
           <p>{butterfly.habitat || "No disponible"}</p>
           <br />
 
-          <p>
-            <strong>
-              <i className="fa-solid fa-running" style={{ marginRight: "8px" }}></i>
-              Comportamiento
-            </strong>
-          </p>
+          <p><strong><i className="fa-solid fa-running"></i> Comportamiento</strong></p>
           <p>{butterfly.behavior || "No disponible"}</p>
           <br />
 
-          <p>
-            <strong>
-              <i className="fa-solid fa-book" style={{ marginRight: "8px" }}></i>
-              Descripción
-            </strong>
-          </p>
+          <p><strong><i className="fa-solid fa-book"></i> Descripción</strong></p>
           <p>{butterfly.description || "No disponible"}</p>
           <br />
 
-          <p>
-            <strong>
-              <i className="fa-solid fa-seedling" style={{ marginRight: "8px" }}></i>
-              Plantas Hospederas
-            </strong>
-          </p>
-          <p>{parseJsonArray(butterfly.hostPlants)}</p>
+          <p><strong><i className="fa-solid fa-seedling"></i> Plantas Hospederas</strong></p>
+          <p>{formatArray(butterfly.hostPlants)}</p>
           <br />
 
-          <p>
-            <strong>
-              <i className="fa-solid fa-apple-whole" style={{ marginRight: "8px" }}></i>
-              Fuente de Néctar
-            </strong>
-          </p>
-          <p>{parseJsonArray(butterfly.nectarSources)}</p>
+          <p><strong><i className="fa-solid fa-apple-whole"></i> Fuente de Néctar</strong></p>
+          <p>{formatArray(butterfly.nectarSources)}</p>
+          <br />
+
+          <p><strong><i className="fa-solid fa-tags"></i> Tags</strong></p>
+          <p>{formatArray(butterfly.tags)}</p>
           <br />
 
           <div className="button-container">
