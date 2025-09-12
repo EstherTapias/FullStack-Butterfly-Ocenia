@@ -79,19 +79,58 @@ const ButterflyModel = db_connection.define('Butterfly', {
     flightSeason:{
         type: DataTypes.JSON,
         defaultValue: [],
-        allowNull: true
+        allowNull: true,
+        // Getter para asegurar que siempre devuelve un array
+        get() {
+            const rawValue = this.getDataValue('flightSeason');
+            if (!rawValue) return [];
+            if (typeof rawValue === 'string') {
+                try {
+                    return JSON.parse(rawValue);
+                } catch {
+                    return [rawValue];
+                }
+            }
+            return Array.isArray(rawValue) ? rawValue : [rawValue];
+        }
     },
     // Es una array de dos datos
     hostPlants:{
         type: DataTypes.JSON,
         defaultValue: [],
-        allowNull: true  // ✅ Corregido: era allowNull: []
+        allowNull: true,
+        // Getter para asegurar que siempre devuelve un array
+        get() {
+            const rawValue = this.getDataValue('hostPlants');
+            if (!rawValue) return [];
+            if (typeof rawValue === 'string') {
+                try {
+                    return JSON.parse(rawValue);
+                } catch {
+                    return [rawValue];
+                }
+            }
+            return Array.isArray(rawValue) ? rawValue : [rawValue];
+        }
     },
     // Es un array de 3 datos
     nectarSources:{
         type: DataTypes.JSON,
         defaultValue: [], 
-        allowNull: true
+        allowNull: true,
+        // Getter para asegurar que siempre devuelve un array
+        get() {
+            const rawValue = this.getDataValue('nectarSources');
+            if (!rawValue) return [];
+            if (typeof rawValue === 'string') {
+                try {
+                    return JSON.parse(rawValue);
+                } catch {
+                    return [rawValue];
+                }
+            }
+            return Array.isArray(rawValue) ? rawValue : [rawValue];
+        }
     },
     // Comportamiento de la mariposa (solo texto)
     behavior:{
@@ -110,17 +149,31 @@ const ButterflyModel = db_connection.define('Butterfly', {
     // Color primario
     colorPrimary:{
         type: DataTypes.STRING, 
-        allowNull: true  // ✅ Corregido: era allowNul
+        allowNull: true
     },
     // Tag (es un array de 4 datos)
     tags:{
         type: DataTypes.JSON,
         defaultValue: [],
-        allowNull: true
+        allowNull: true,
+        // Getter para asegurar que siempre devuelve un array
+        get() {
+            const rawValue = this.getDataValue('tags');
+            if (!rawValue) return [];
+            if (typeof rawValue === 'string') {
+                try {
+                    return JSON.parse(rawValue);
+                } catch {
+                    return [rawValue];
+                }
+            }
+            return Array.isArray(rawValue) ? rawValue : [rawValue];
+        }
     },
     // Es para colocar la foto de la mariposa (se coloca como con uncodigo que le da cloudinary)
     publicId:{
         type: DataTypes.STRING, 
+        allowNull: true
     }
 });
 

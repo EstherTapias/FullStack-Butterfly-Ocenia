@@ -76,7 +76,7 @@ const EditButterfly = ()=>{
 
   const handleCancel = () => {
     navigate(`/butterflylist`);
-    isSubmitting (false)
+    setIsSubmitting(false)
   };
 
   if (loading) {
