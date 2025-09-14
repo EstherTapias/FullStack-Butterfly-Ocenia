@@ -103,6 +103,12 @@ DB_NAME=butterflies_app
 DB_NAME_TEST=butterflies_app_test
 ```
 
+Para encriptar el .env
+
+```
+npm run dotenvx encrypt
+```
+
 ### 5. Ejecutar el servidor
 ```bash
 # Modo desarrollo (el único script disponible)
