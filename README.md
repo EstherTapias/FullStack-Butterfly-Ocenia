@@ -64,8 +64,8 @@ Descarga e instala [MySQL Workbench](https://dev.mysql.com/downloads/workbench/)
 
 #### 3.2. Crear la base de datos
 ```sql
-CREATE DATABASE butterflies_oceania;
-USE butterflies_oceania;
+CREATE DATABASE butterflies_app;
+USE butterflies_app;
 ```
 
 #### 3.3. Crear las tablas necesarias
