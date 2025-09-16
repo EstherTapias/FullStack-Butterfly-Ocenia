@@ -78,7 +78,7 @@ const Card = ({name, role, image, linkedin, github, message}) => {
     {
       name: "Luisa Silva",
         role: "Web Developer",
-        image: "https://media.licdn.com/dms/image/v2/D4E03AQFRwCQfvCdxXw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1705925392107?e=1756944000&v=beta&t=sgXqvALqh6DrX9hB6p6rfRhfJnkeBmyhxs9DNv6HX6w",
+        image: "../src/assets/imgcontact/luisa-avatar.png",
         linkedin: "https://linkedin.com/in/luisa-silva-martinez",
         github: "https://github.com/luisasilva99",
         message: "¡Gracias por visitar nuestro sitio!"
@@ -86,7 +86,7 @@ const Card = ({name, role, image, linkedin, github, message}) => {
     {
       name: "Michelle Gelves",
         role: "Web Developer",
-        image: "https://media.licdn.com/dms/image/v2/D4D03AQFs_8HwKaQJbg/profile-displayphoto-scale_200_200/B4DZgaDHjIG8AY-/0/1752783682275?e=1756944000&v=beta&t=_0L5N21_UakhBiIuH15-eqf8YGZ3OoMzEmMSlzhzcSk",
+        image: "../src/assets/imgcontact/michelle-avatar.png",
         linkedin: "https://linkedin.com/in/michelle-gelves",
         github: "https://github.com/MichelleGel",
         message: "¡Gracias por visitar nuestro sitio!"
